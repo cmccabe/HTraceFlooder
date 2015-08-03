@@ -20,6 +20,10 @@ ls -l target/HTraceFlooder.jar
 Usage
 -----
 
+If you have Hadoop installed, you can use the "hadoop jar" command to get a
+CLASSPATH environment which has the jars you need.  If not, you must set up the
+CLASSPATH yourself so that it contains all the htrace jar files.
+
 ```bash
 ~> hadoop jar target/htrace-flooder-1.0.jar
 HTraceFlooder: a standalone test which floods htraced with traces.
